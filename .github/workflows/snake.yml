@@ -16,15 +16,16 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Generate contribution graph SVGs
+      - name: Generate Pacman & Galaga contribution graph SVGs
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
           games: 'pacman,galaga'
 
-      - name: Push SVGs to the pacman-output branch
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Push SVGs to pacman-output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: pacman-output
-          publish_dir: dist
+          target_branch: pacman-output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
