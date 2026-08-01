@@ -91,16 +91,33 @@
 
 <br/>
 
-## 🛠️ Keahlian Utama (Tech Stack Matrix)
+## 👾 🎮 Pacman Contribution Eating Arcade
 
 <div align="center">
+  <p><i>Animasi Pacman / Snake memakan kontribusi commit GitHub secara real-time:</i></p>
+  <br/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BDwicky/BDwicky/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BDwicky/BDwicky/output/github-contribution-grid-snake.svg" />
+    <img alt="Pacman Contribution Animation" src="https://raw.githubusercontent.com/BDwicky/BDwicky/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
+</div>
 
-| Kategori | Penguasaan Skill | Teknologi & Tools Utama |
-| :--- | :---: | :--- |
-| **Backend Development** | **90%** | <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" /> <img src="https://img.shields.io/badge/RESTful_API-8A4FFF?style=flat-square&logo=postman&logoColor=white" /> |
-| **Frontend Development** | **85%** | <img src="https://img.shields.io/badge/HTML5_&_CSS3-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript_(ES6+)-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" /> |
-| **Database & Tools** | **90%** | <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/Git_&_GitHub-F05032?style=flat-square&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" /> |
+<br/>
 
+<!-- Glowing Animated Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<br/>
+
+## 🛠️ Animated Tech Stack Arsenal
+
+<div align="center">
+  <p><i>Teknologi & Tools Utama yang digunakan dalam pengembangan software:</i></p>
+  <br/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=php,laravel,js,html,css,tailwind,bootstrap,mysql,postgres,git,vite,vscode&theme=dark" alt="Animated Tech Stack Icons" />
+  </a>
 </div>
 
 <br/>
@@ -116,6 +133,11 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=BDwicky&theme=tokyonight&border=1e293b&background=0c101d&ring=8a4fff&fire=00d8f6&currStreakLabel=00d8f6" width="98%" alt="GitHub Streak" />
 </p>
+
+<br/>
+
+<!-- Glowing Animated Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 <br/>
 
