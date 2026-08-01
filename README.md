@@ -1,11 +1,16 @@
 <div align="center">
-  <!-- Capsule Waving Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:6d28d9,100:06b6d4&height=220&section=header&text=✨%20NANDA%20✨&fontSize=48&animation=twinkle&fontColor=ffffff" width="100%" alt="Cosmic Header" />
+  <!-- Deep Space Galaxy Nebula Capsule Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,20:0f172a,45:2e1065,70:581c87,90:7e22ce,100:0284c7&height=260&section=header&text=🌌%20NANDA%20%7C%20COSMIC%20DEV%20✨&fontSize=50&animation=twinkle&fontColor=ffffff" width="100%" alt="Deep Space Galaxy Header" />
 
-  <br/>
+  <br/><br/>
+
+  <!-- Galaxy Shooting Stars GIF Banner -->
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+  <br/><br/>
 
   <!-- Dynamic Typing Header SVG -->
-  <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=24&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=Full-Stack+Web+Developer;Laravel+%26+PHP+Specialist;Building+Enterprise+Web+Systems;Cosmic+UI%2FUX+%26+Clean+Architecture" alt="Typing SVG Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=🌌+Full-Stack+Web+Developer;🪐+Laravel+%26+PHP+Specialist;🛸+Building+Enterprise+Web+Systems;✨+Cosmic+UI%2FUX+%26+Clean+Architecture" alt="Typing SVG Header" />
 
   <br/><br/>
 
@@ -15,11 +20,6 @@
   <a href="https://github.com/BDwicky?tab=repositories"><img src="https://img.shields.io/github/stars/BDwicky?label=Stars&style=for-the-badge&color=06B6D4&logo=github&logoColor=white" /></a>
   <a href="https://github.com/BDwicky"><img src="https://img.shields.io/badge/Location-Surabaya%2C%20ID-10B981?style=for-the-badge&logo=googlemaps&logoColor=white" /></a>
 </div>
-
-<br/>
-
-<!-- Animated Cosmic Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 <br/>
 
@@ -104,6 +104,6 @@
 
   <br/><br/>
 
-  <!-- Footer Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:6d28d9,100:0f172a&height=120&section=footer" width="100%" alt="Cosmic Footer" />
+  <!-- Deep Space Nebula Footer Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,30:2e1065,70:7e22ce,100:0284c7&height=140&section=footer" width="100%" alt="Deep Space Footer" />
 </div>
