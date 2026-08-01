@@ -60,15 +60,25 @@
       </ul>
     </td>
     <td width="45%" valign="top">
-      <h3>📊 Technical Proficiency</h3>
-      <p><b>PHP & Laravel</b> <code>90%</code></p>
-      <img src="https://geps.dev/progress/90?dangerColor=8A4FFF&warningColor=8A4FFF&successColor=00D8F6" width="100%" />
-      <p><b>HTML5, CSS3 & Tailwind</b> <code>90%</code></p>
-      <img src="https://geps.dev/progress/90?dangerColor=8A4FFF&warningColor=8A4FFF&successColor=00D8F6" width="100%" />
-      <p><b>MySQL & PostgreSQL Database</b> <code>85%</code></p>
-      <img src="https://geps.dev/progress/85?dangerColor=8A4FFF&warningColor=8A4FFF&successColor=00D8F6" width="100%" />
-      <p><b>JavaScript (ES6+) & Modern Tools</b> <code>80%</code></p>
-      <img src="https://geps.dev/progress/80?dangerColor=8A4FFF&warningColor=8A4FFF&successColor=00D8F6" width="100%" />
+      <h3>⚡ Core Competencies</h3>
+      <table width="100%">
+        <tr>
+          <td><b>PHP & Laravel Framework</b></td>
+          <td align="right"><img src="https://img.shields.io/badge/Expert-90%25-8A4FFF?style=flat-square&logo=laravel&logoColor=white" /></td>
+        </tr>
+        <tr>
+          <td><b>HTML5, CSS3 & Tailwind</b></td>
+          <td align="right"><img src="https://img.shields.io/badge/Advanced-90%25-00D8F6?style=flat-square&logo=tailwind-css&logoColor=white" /></td>
+        </tr>
+        <tr>
+          <td><b>MySQL & PostgreSQL DB</b></td>
+          <td align="right"><img src="https://img.shields.io/badge/Advanced-85%25-4F46E5?style=flat-square&logo=mysql&logoColor=white" /></td>
+        </tr>
+        <tr>
+          <td><b>JavaScript & Modern Tools</b></td>
+          <td align="right"><img src="https://img.shields.io/badge/Proficient-80%25-10B981?style=flat-square&logo=javascript&logoColor=black" /></td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
