@@ -5,5 +5,5 @@
 <br/>
 
 <div align="center">
-  <img src="./github-contribution-grid-snake-dark.svg" alt="pacman contribution graph" width="100%" />
+  <img src="https://raw.githubusercontent.com/BDwicky/BDwicky/main/github-contribution-grid-snake-dark.svg?v=99" alt="pacman contribution graph" width="100%" />
 </div>
