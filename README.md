@@ -1,124 +1,131 @@
 <div align="center">
-  <!-- Galaxy/Astro Waving Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:6366f1,100:06b11ff&height=240&section=header&text=✨%20Wicky%20Dian%20%7C%20Astro%20Dev%20🌌&fontSize=42&animation=twinkle&fontColor=ffffff" width="100%" alt="Astro Galaxy Banner" />
-
-  <h1>🪐 Welcome to Wicky Dian's Cosmic Orbit!</h1>
-  <p><b>🌌 Full-Stack Web Developer & Laravel Specialist | Creating Systems Across the Galaxy 🚀</b></p>
-
-  <p>
-    <a href="https://github.com/BDwicky">
-      <img src="https://img.shields.io/github/followers/BDwicky?label=Followers&style=for-the-badge&color=8B5CF6&logo=github&logoColor=white" alt="GitHub Followers" />
-    </a>
-    <a href="https://github.com/BDwicky?tab=stars">
-      <img src="https://img.shields.io/github/stars/BDwicky?label=Stars&style=for-the-badge&color=06B6D4&logo=github&logoColor=white" alt="GitHub Stars" />
-    </a>
-    <a href="https://github.com/BDwicky">
-      <img src="https://img.shields.io/badge/Astro--Theme-Cosmic%20Violet-6366f1?style=for-the-badge&logo=nasa&logoColor=white" alt="Theme Badge" />
-    </a>
-  </p>
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
----
-
-### 🛸 About My Space Mission
-
-```javascript
-const astronaut = {
-  name: "Wicky Dian",
-  role: "Full-Stack Web Developer & Software Engineer",
-  location: "Surabaya, Indonesia 🇮🇩",
-  currentMission: "Building High-Performance Enterprise Applications",
-  favStack: ["Laravel", "PHP 8.x", "JavaScript ES6+", "MySQL", "Vite"],
-  philosophy: "Clean Code, Cosmic Visuals & Bulletproof Architecture 💫"
-};
-```
-
-- 🔭 **Current Orbit**: Developing enterprise web platforms, asset management systems, and real-time interactive apps.
-- ⚡ **Core Propulsion**: PHP/Laravel Backend Architecture, MySQL Database Design, & Modern Frontend Integration.
-- 🛰️ **Flagship Project**: **[AC-Care-Plus](https://github.com/BDwicky/AC-Care-Plus)** — Web-based Air Conditioner Maintenance & Work Order System with QR Code Scanning & Live Floating Chat.
-
----
-
-### 🌌 Deep Space Tech Stack
-
-<div align="center">
-
-  #### 🚀 Backend & Core Systems
-  <img src="https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-11.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Node.js-Async-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <!-- Capsule Waving Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:6d28d9,100:06b6d4&height=220&section=header&text=✨%20WICKY%20DIAN%20✨&fontSize=48&animation=twinkle&fontColor=ffffff" width="100%" alt="Cosmic Header" />
 
   <br/>
 
-  #### 🌠 Frontend & Visual Nebula
-  <img src="https://img.shields.io/badge/HTML5-Cosmic-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-Glow-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bootstrap-5.x-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-Bundler-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <!-- Dynamic Typing Header SVG -->
+  <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=24&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=Full-Stack+Web+Developer;Laravel+%26+PHP+Specialist;Building+Enterprise+Web+Systems;Cosmic+UI%2FUX+%26+Clean+Architecture" alt="Typing SVG Header" />
 
-  <br/>
+  <br/><br/>
 
-  #### 🗄️ Orbital Data & Control Center
-  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-Relational-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-Control-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-Cloud-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nginx-Server-009639?style=for-the-badge&logo=nginx&logoColor=white" />
-
-</div>
-
----
-
-### 📊 Galaxy Telemetry & GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BDwicky&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8&bg_color=0F172A" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BDwicky&layout=compact&theme=tokyonight&hide_border=true&title_color=8B5CF6&text_color=94A3B8&bg_color=0F172A&langs_count=8" width="49%" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BDwicky&theme=tokyonight&hide_border=true&background=0F172A&ring=8B5CF6&fire=06B6D4&currStreakLabel=06B6D4" width="98%" alt="GitHub Streak" />
-</p>
-
----
-
-### 🪐 Featured Orbital Projects
-
-<div align="center">
-
-| System | Cosmic Mission | Tech Spectrum |
-| :--- | :--- | :--- |
-| 🌬️ **[AC-Care-Plus](https://github.com/BDwicky/AC-Care-Plus)** | Complete AC Maintenance & Work Order System with QR Code Scanning, Real-time Floating Chat, & Inspection PDF Reports. | `Laravel` `MySQL` `Vite` `Vanilla JS` |
-| 📅 **Smart Room Booking** | Interactive Smart Scheduling Platform integrated with Google Calendar API & dynamic room map renderer. | `Node.js` `Express` `MongoDB` |
-| 📊 **Building Analytics Hub** | Real-time interactive asset performance metrics dashboard with dynamic trend forecasting charts. | `Laravel` `Chart.js` `Alpine.js` |
-
-</div>
-
----
-
-### 📡 Satellite Transmission & Contact
-
-<div align="center">
-  <p>Feel free to transmit a message or collaborate across galaxies!</p>
-  
-  <a href="mailto:wicky.dian@example.com">
-    <img src="https://img.shields.io/badge/Email-Transmit-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+  <!-- Main Badges -->
   <a href="https://github.com/BDwicky">
-    <img src="https://img.shields.io/badge/GitHub-BDwicky-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/github/followers/BDwicky?label=Followers&style=for-the-badge&color=6D28D9&logo=github&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/wickydian">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  &nbsp;
+  <a href="https://github.com/BDwicky?tab=repositories">
+    <img src="https://img.shields.io/github/stars/BDwicky?label=Stars&style=for-the-badge&color=06B6D4&logo=github&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/BDwicky">
+    <img src="https://img.shields.io/badge/Location-Surabaya%2C%20ID-4F46E5?style=for-the-badge&logo=googlemaps&logoColor=white" />
   </a>
 </div>
 
 <br/>
 
+<!-- Animated Cosmic Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<br/>
+
+## 🌌 🪐 Astronaut Profile & Mission Control
+
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <h3>👨‍🚀 Mission Commander Log</h3>
+      <p>Halo! Saya <b>Wicky Dian</b>, seorang <i>Full-Stack Web Developer</i> yang berfokus pada pengembangan sistem informasi enterprise berbasis web, arsitektur database performa tinggi, dan antarmuka pengguna modern yang intuitif.</p>
+      <ul>
+        <li>🔭 <b>Mission Focus:</b> Building Scalable Enterprise Web Systems</li>
+        <li>⚡ <b>Core Stack:</b> Laravel, PHP 8.x, JavaScript (ES6+), MySQL, Vite</li>
+        <li>🛸 <b>Flagship Ship:</b> <a href="https://github.com/BDwicky/AC-Care-Plus">AC-Care-Plus (Sim Perawatan AC)</a></li>
+        <li>🎯 <b>Prinsip:</b> Clean Architecture, High Performance, & Cosmic UI/UX</li>
+      </ul>
+    </td>
+    <td width="40%" align="center" valign="middle">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BDwicky&layout=donut&theme=tokyonight&hide_border=true&title_color=c084fc&text_color=94a3b8&bg_color=0F172A" width="100%" alt="Top Languages Donut" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+## 🛠️ 🌠 Deep Space Tech Arsenal
+
 <div align="center">
-  <!-- Galaxy Footer -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b11ff,50:6366f1,100:0f172a&height=120&section=footer" width="100%" alt="Footer Galaxy" />
+
+| Kategori | Teknologi & Tools Utama |
+| :--- | :--- |
+| **Backend & Core** | <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" /> |
+| **Frontend & UI** | <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" /> |
+| **Database & Cloud** | <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" /> |
+
+</div>
+
+<br/>
+
+## 📊 🛸 Orbit Telemetry & GitHub Analytics
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=BDwicky&show_icons=true&theme=tokyonight&count_private=true&hide_border=false&border_color=1e293b&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8&bg_color=0f172a" width="410" alt="GitHub Stats" />
+      </td>
+      <td align="center">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=BDwicky&theme=tokyonight&hide_border=false&border=1e293b&background=0f172a&ring=c084fc&fire=38bdf8&currStreakLabel=38bdf8" width="410" alt="GitHub Streak" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+## 🚀 🪐 Flagship Orbital Projects
+
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top">
+      <h4>🌬️ <a href="https://github.com/BDwicky/AC-Care-Plus">AC-Care-Plus</a></h4>
+      <p>Sistem Informasi Manajemen Perawatan AC dengan QR Code Scanning, Work Order, & Real-time Floating Chat.</p>
+      <p><code>Laravel</code> <code>MySQL</code> <code>Vite</code> <code>Vanilla JS</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>📅 Smart Room Booking</h4>
+      <p>Sistem reservasi ruang rapat terintegrasi Google Calendar API & visualisasi denah lokasi interaktif.</p>
+      <p><code>Node.js</code> <code>Express</code> <code>MongoDB</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>📊 Building Analytics</h4>
+      <p>Dasbor analitik pemeliharaan aset gedung dengan chart tren historis real-time & deteksi unit bermasalah.</p>
+      <p><code>Laravel</code> <code>Chart.js</code> <code>Alpine.js</code></p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+## 📡 🌌 Transmit & Connect
+
+<div align="center">
+  <p>Tertarik untuk berkolaborasi atau mendiskusikan proyek web? Mari terhubung!</p>
+
+  <a href="mailto:wicky.dian@example.com">
+    <img src="https://img.shields.io/badge/Email-wicky.dian%40example.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/BDwicky">
+    <img src="https://img.shields.io/badge/GitHub-BDwicky-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/wickydian">
+    <img src="https://img.shields.io/badge/LinkedIn-Wicky%20Dian-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+
+  <br/><br/>
+
+  <!-- Footer Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:6d28d9,100:0f172a&height=120&section=footer" width="100%" alt="Cosmic Footer" />
 </div>
