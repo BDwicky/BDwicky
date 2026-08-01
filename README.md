@@ -1,11 +1,16 @@
 <div align="center">
-  <!-- Portfolio Banner with Exact Gradient from portofolio.accare.tech -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0c101d,35:8a4fff,75:00d8f6,100:0c101d&height=240&section=header&text=✨%20NANDA%20%7C%20Wicky.dev%20✨&fontSize=48&animation=twinkle&fontColor=ffffff" width="100%" alt="Header Banner" />
+  <!-- Running Neon Ticker Accent Bar (Top) -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2500&pause=500&color=00D8F6&center=true&vCenter=true&width=750&lines=%E2%96%B6+SYSTEM+ONLINE+%E2%80%A2+CONNECTED+TO+NANDA'S+ORBITAL+STATION+%E2%9D%A4;%E2%9A%A1+FULL-STACK+WEB+DEVELOPER+%E2%80%A2+LARAVEL+SPECIALIST+%E2%80%A2+CLEAN+ARCHITECT;%F0%9F%8C%90+PORTFOLIO%3A+BDwicky.dev+%E2%80%A2+portofolio.accare.tech" alt="Running Ticker Accent" />
 
   <br/>
 
-  <!-- Dynamic Typing Header matching Portfolio -->
-  <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=24&duration=3000&pause=1000&color=00D8F6&center=true&vCenter=true&width=650&lines=Full-Stack+Web+Developer;Laravel+%26+PHP+Specialist;Building+Enterprise+Web+Systems;Clean+Code+%26+Modern+UI%2FUX" alt="Typing SVG Header" />
+  <!-- Main Cyber Glowing Banner Header with Neon Border Accent -->
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0c101d,20:1e1b4b,50:8a4fff,80:00d8f6,100:0c101d&height=220&section=header&text=⚡%20NANDA%20%7C%20FULL-STACK%20DEV%20⚡&fontSize=42&animation=twinkle&fontColor=ffffff&stroke=8a4fff&strokeWidth=2" width="100%" alt="Header Banner" />
+
+  <br/>
+
+  <!-- Dynamic Running Text Accent (Bottom) -->
+  <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=22&duration=3000&pause=800&color=8A4FFF&center=true&vCenter=true&width=650&lines=%F0%9F%9A%80+Building+Scalable+Enterprise+Web+Systems;%F0%9F%92%A1+High-Performance+Database+%26+Modern+UI%2FUX;%E2%9A%A1+Laravel+%E2%80%A2+PHP+8.x+%E2%80%A2+MySQL+%E2%80%A2+JavaScript" alt="Typing SVG Header" />
 
   <br/><br/>
 
