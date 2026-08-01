@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Capsule Waving Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:6d28d9,100:06b6d4&height=220&section=header&text=✨%20WICKY%20DIAN%20✨&fontSize=48&animation=twinkle&fontColor=ffffff" width="100%" alt="Cosmic Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:6d28d9,100:06b6d4&height=220&section=header&text=✨%20NANDA%20✨&fontSize=48&animation=twinkle&fontColor=ffffff" width="100%" alt="Cosmic Header" />
 
   <br/>
 
@@ -36,7 +36,7 @@
   <tr>
     <td width="60%" valign="top">
       <h3>👨‍🚀 Mission Commander Log</h3>
-      <p>Halo! Saya <b>Wicky Dian</b>, seorang <i>Full-Stack Web Developer</i> yang berfokus pada pengembangan sistem informasi enterprise berbasis web, arsitektur database performa tinggi, dan antarmuka pengguna modern yang intuitif.</p>
+      <p>Halo! Saya <b>Nanda</b>, seorang <i>Full-Stack Web Developer</i> yang berfokus pada pengembangan sistem informasi enterprise berbasis web, arsitektur database performa tinggi, dan antarmuka pengguna modern yang intuitif.</p>
       <ul>
         <li>🔭 <b>Mission Focus:</b> Building Scalable Enterprise Web Systems</li>
         <li>⚡ <b>Core Stack:</b> Laravel, PHP 8.x, JavaScript (ES6+), MySQL, Vite</li>
@@ -112,16 +112,16 @@
 <div align="center">
   <p>Tertarik untuk berkolaborasi atau mendiskusikan proyek web? Mari terhubung!</p>
 
-  <a href="mailto:wicky.dian@example.com">
-    <img src="https://img.shields.io/badge/Email-wicky.dian%40example.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="mailto:nanda@example.com">
+    <img src="https://img.shields.io/badge/Email-nanda%40example.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   &nbsp;
   <a href="https://github.com/BDwicky">
     <img src="https://img.shields.io/badge/GitHub-BDwicky-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://linkedin.com/in/wickydian">
-    <img src="https://img.shields.io/badge/LinkedIn-Wicky%20Dian-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://linkedin.com/in/nanda">
+    <img src="https://img.shields.io/badge/LinkedIn-Nanda-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 
   <br/><br/>
