@@ -96,7 +96,11 @@
 <div align="center">
   <p><i>Animasi Pacman / Snake memakan kontribusi commit GitHub secara real-time:</i></p>
   <br/>
-  <img alt="Pacman Contribution Animation" src="./github-contribution-grid-snake-dark.svg?v=5" width="100%" />
+  <picture data-importer="pacman">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BDwicky/BDwicky/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BDwicky/BDwicky/pacman-output/pacman-contribution-graph.svg?game=pacman">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/BDwicky/BDwicky/pacman-output/pacman-contribution-graph.svg?game=pacman" width="100%">
+  </picture>
 </div>
 
 <br/>
