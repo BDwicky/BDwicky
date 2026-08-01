@@ -11,16 +11,9 @@
 
   <!-- Floating Badges from Portfolio -->
   <img src="https://img.shields.io/badge/⚡_Laravel-Expert-8A4FFF?style=for-the-badge&logo=laravel&logoColor=white" />
-  &nbsp;
   <img src="https://img.shields.io/badge/💻_Clean-Code-00D8F6?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-  &nbsp;
-  <a href="https://bdwicky.dev" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_Website-BDwicky.dev-10B981?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="https://portofolio.accare.tech" target="_blank">
-    <img src="https://img.shields.io/badge/🚀_Live_Porto-accare.tech-F59E0B?style=for-the-badge&logo=cloudflare&logoColor=white" />
-  </a>
+  <a href="https://bdwicky.dev" target="_blank"><img src="https://img.shields.io/badge/🌐_Website-BDwicky.dev-10B981?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://portofolio.accare.tech" target="_blank"><img src="https://img.shields.io/badge/🚀_Live_Porto-accare.tech-F59E0B?style=for-the-badge&logo=cloudflare&logoColor=white" /></a>
 </div>
 
 <br/>
@@ -30,7 +23,7 @@
 
 <br/>
 
-## 👨‍💻 Tentang Saya & Metrics Overview
+## 👨‍💻 Tentang Saya & Key Metrics
 
 <div align="center">
   <table width="100%">
@@ -51,31 +44,42 @@
   </table>
 </div>
 
+<br/>
+
 <table>
   <tr>
     <td width="55%" valign="top">
-      <h3>✨ Kenal Lebih Dekat</h3>
-      <p>Saya adalah seorang pengembang web yang berdedikasi dengan ketertarikan kuat dalam membangun solusi perangkat lunak yang andal. Dengan pengalaman mengembangkan aplikasi manajemen internal dan sistem informasi, saya mengintegrasikan kebutuhan bisnis ke dalam arsitektur kode yang efisien dan mudah dipelihara.</p>
+      <h3>✨ Mission Commander Log</h3>
+      <p>Halo! Saya <b>Nanda</b>, seorang <i>Full-Stack Web Developer</i> yang berfokus pada pengembangan sistem informasi enterprise berbasis web, arsitektur database performa tinggi, dan antarmuka pengguna modern yang intuitif.</p>
       <ul>
         <li>📍 <b>Lokasi:</b> Surabaya, Indonesia 🇮🇩</li>
         <li>🎓 <b>Fokus Utama:</b> Full-Stack Web Development & System Architecture</li>
         <li>🛠️ <b>Core Stack:</b> PHP, Laravel Framework, MySQL, JavaScript, Vite</li>
+        <li>🌐 <b>Portfolio:</b> <a href="https://bdwicky.dev">BDwicky.dev</a> | <a href="https://portofolio.accare.tech">accare.tech</a></li>
         <li>💡 <b>Filosofi:</b> Fast, Responsive, User-Oriented Systems</li>
       </ul>
     </td>
-    <td width="45%" align="center" valign="middle">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BDwicky&layout=compact&theme=tokyonight&hide_border=true&title_color=8a4fff&text_color=94a3b8&bg_color=0c101d" width="100%" alt="Top Languages" />
+    <td width="45%" valign="top">
+      <h3>📊 Technical Proficiency</h3>
+      <p><b>PHP & Laravel</b> <code>90%</code></p>
+      <img src="https://geps.dev/progress/90?dangerColor=8A4FFF&warningColor=8A4FFF&successColor=00D8F6" width="100%" />
+      <p><b>HTML5, CSS3 & Tailwind</b> <code>90%</code></p>
+      <img src="https://geps.dev/progress/90?dangerColor=8A4FFF&warningColor=8A4FFF&successColor=00D8F6" width="100%" />
+      <p><b>MySQL & PostgreSQL Database</b> <code>85%</code></p>
+      <img src="https://geps.dev/progress/85?dangerColor=8A4FFF&warningColor=8A4FFF&successColor=00D8F6" width="100%" />
+      <p><b>JavaScript (ES6+) & Modern Tools</b> <code>80%</code></p>
+      <img src="https://geps.dev/progress/80?dangerColor=8A4FFF&warningColor=8A4FFF&successColor=00D8F6" width="100%" />
     </td>
   </tr>
 </table>
 
 <br/>
 
-## 🛠️ Keahlian Utama (Skills & Tech Stack)
+## 🛠️ Keahlian Utama (Tech Stack Matrix)
 
 <div align="center">
 
-| Kategori | Penguasaan Skill | Teknologi & Tools |
+| Kategori | Penguasaan Skill | Teknologi & Tools Utama |
 | :--- | :---: | :--- |
 | **Backend Development** | **90%** | <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" /> <img src="https://img.shields.io/badge/RESTful_API-8A4FFF?style=flat-square&logo=postman&logoColor=white" /> |
 | **Frontend Development** | **85%** | <img src="https://img.shields.io/badge/HTML5_&_CSS3-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript_(ES6+)-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" /> |
@@ -88,8 +92,8 @@
 ## 📊 Statistik GitHub & Telemetri Performa
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BDwicky&show_icons=true&theme=tokyonight&hide_border=false&border_color=1e293b&title_color=8a4fff&icon_color=00d8f6&text_color=94a3b8&bg_color=0c101d" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BDwicky&theme=tokyonight&hide_border=false&border=1e293b&background=0c101d&ring=8a4fff&fire=00d8f6&currStreakLabel=00d8f6" width="49%" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=BDwicky&show_icons=true&theme=tokyonight&border_color=1e293b&title_color=8a4fff&icon_color=00d8f6&text_color=94a3b8&bg_color=0c101d" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BDwicky&theme=tokyonight&border=1e293b&background=0c101d&ring=8a4fff&fire=00d8f6&currStreakLabel=00d8f6" width="49%" alt="GitHub Streak" />
 </p>
 
 <br/>
@@ -123,18 +127,10 @@
 <div align="center">
   <p>Ingin berkolaborasi atau membangun proyek web bersama? Mari terhubung!</p>
 
-  <a href="https://bdwicky.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Website-BDwicky.dev-8A4FFF?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  </a>
-  <a href="https://portofolio.accare.tech" target="_blank">
-    <img src="https://img.shields.io/badge/Portofolio-portofolio.accare.tech-F59E0B?style=for-the-badge&logo=cloudflare&logoColor=white" />
-  </a>
-  <a href="https://github.com/BDwicky" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-BDwicky-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://linkedin.com/in/BDwicky" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-BDwicky-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+  <a href="https://bdwicky.dev" target="_blank"><img src="https://img.shields.io/badge/Website-BDwicky.dev-8A4FFF?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://portofolio.accare.tech" target="_blank"><img src="https://img.shields.io/badge/Portofolio-portofolio.accare.tech-F59E0B?style=for-the-badge&logo=cloudflare&logoColor=white" /></a>
+  <a href="https://github.com/BDwicky" target="_blank"><img src="https://img.shields.io/badge/GitHub-BDwicky-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/BDwicky" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-BDwicky-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
   <br/><br/>
 
