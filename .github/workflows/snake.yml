@@ -1,8 +1,8 @@
-name: Generate Contribution Snake
+name: Generate Pacman Contribution Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */24 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -10,20 +10,21 @@ on:
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
     permissions:
       contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
-      - uses: Platane/snk/svg-only@v3
+      - name: Generate contribution graph SVGs
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          games: 'pacman,galaga'
 
-      - uses: peaceiris/actions-gh-pages@v4
+      - name: Push SVGs to the pacman-output branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output
+          publish_branch: pacman-output
           publish_dir: dist
