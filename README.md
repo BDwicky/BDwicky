@@ -10,8 +10,12 @@
   <br/><br/>
 
   <!-- Main Badges -->
+  <a href="https://bdwicky.dev">
+    <img src="https://img.shields.io/badge/Portfolio-BDwicky.dev-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
+  &nbsp;
   <a href="https://github.com/BDwicky">
-    <img src="https://img.shields.io/github/followers/BDwicky?label=Followers&style=for-the-badge&color=6D28D9&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/github/followers/BDwicky?label=Followers&style=for-the-badge&color=4F46E5&logo=github&logoColor=white" />
   </a>
   &nbsp;
   <a href="https://github.com/BDwicky?tab=repositories">
@@ -19,7 +23,7 @@
   </a>
   &nbsp;
   <a href="https://github.com/BDwicky">
-    <img src="https://img.shields.io/badge/Location-Surabaya%2C%20ID-4F46E5?style=for-the-badge&logo=googlemaps&logoColor=white" />
+    <img src="https://img.shields.io/badge/Location-Surabaya%2C%20ID-10B981?style=for-the-badge&logo=googlemaps&logoColor=white" />
   </a>
 </div>
 
@@ -39,6 +43,7 @@
       <p>Halo! Saya <b>Nanda</b>, seorang <i>Full-Stack Web Developer</i> yang berfokus pada pengembangan sistem informasi enterprise berbasis web, arsitektur database performa tinggi, dan antarmuka pengguna modern yang intuitif.</p>
       <ul>
         <li>🔭 <b>Mission Focus:</b> Building Scalable Enterprise Web Systems</li>
+        <li>🌐 <b>Portfolio Website:</b> <a href="https://bdwicky.dev">BDwicky.dev</a></li>
         <li>⚡ <b>Core Stack:</b> Laravel, PHP 8.x, JavaScript (ES6+), MySQL, Vite</li>
         <li>🛸 <b>Flagship Ship:</b> <a href="https://github.com/BDwicky/AC-Care-Plus">AC-Care-Plus (Sim Perawatan AC)</a></li>
         <li>🎯 <b>Prinsip:</b> Clean Architecture, High Performance, & Cosmic UI/UX</li>
@@ -112,16 +117,16 @@
 <div align="center">
   <p>Tertarik untuk berkolaborasi atau mendiskusikan proyek web? Mari terhubung!</p>
 
-  <a href="mailto:nanda@example.com">
-    <img src="https://img.shields.io/badge/Email-nanda%40example.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="https://bdwicky.dev" target="_blank">
+    <img src="https://img.shields.io/badge/Website-BDwicky.dev-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://github.com/BDwicky">
+  <a href="https://github.com/BDwicky" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-BDwicky-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://linkedin.com/in/nanda">
-    <img src="https://img.shields.io/badge/LinkedIn-Nanda-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://linkedin.com/in/BDwicky" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-BDwicky-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 
   <br/><br/>
