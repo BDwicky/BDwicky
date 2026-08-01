@@ -1,96 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 160" width="100%" height="160">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 110" width="100%" height="110">
   <style>
     .bg { fill: #0c101d; rx: 8px; }
-    .title { font-family: 'Outfit', sans-serif; font-weight: 700; fill: #38bdf8; font-size: 14px; }
-    .sub { font-family: 'Plus Jakarta Sans', sans-serif; fill: #94a3b8; font-size: 11px; }
     .cell { rx: 3px; ry: 3px; }
     
-    /* Pacman / Snake Animation */
-    @keyframes moveSnake {
+    /* Perfect Grid-Aligned Pacman Movement */
+    @keyframes pacmanGridMove {
       0% { transform: translate(0px, 0px); }
-      25% { transform: translate(220px, 0px); }
-      50% { transform: translate(440px, 40px); }
-      75% { transform: translate(660px, 20px); }
-      100% { transform: translate(800px, 0px); }
+      30% { transform: translate(784px, 0px); }
+      33% { transform: translate(784px, 16px); }
+      63% { transform: translate(0px, 16px); }
+      66% { transform: translate(0px, 32px); }
+      96% { transform: translate(784px, 32px); }
+      100% { transform: translate(0px, 0px); }
     }
     
-    .pacman {
-      animation: moveSnake 8s linear infinite;
+    /* Mouth Chomping Animation */
+    @keyframes chomp {
+      0%, 100% { d: path("M 12,6 L 3,1 A 6,6 0 1,1 3,11 Z"); }
+      50% { d: path("M 12,6 L 0,6 A 6,6 0 1,1 12,6 Z"); }
+    }
+
+    .pacman-group {
+      animation: pacmanGridMove 12s linear infinite;
+    }
+    
+    .pacman-body {
       fill: #f59e0b;
-    }
-    
-    @keyframes eatDot {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.2; }
-    }
-    
-    .dot-active {
-      animation: eatDot 1.5s ease-in-out infinite alternate;
+      transform-origin: 6px 6px;
     }
   </style>
 
   <!-- Dark Cosmic Background Card -->
-  <rect class="bg" width="850" height="160" />
+  <rect class="bg" width="850" height="110" />
 
-  <!-- Grid of Contribution Dots -->
-  <g transform="translate(30, 30)">
-    <!-- Simulated GitHub Contribution Cells -->
+  <!-- Grid of Contribution Cells -->
+  <g transform="translate(30, 25)">
+    <!-- Row 1 (y = 0) -->
     <g fill="#1e293b">
-      <!-- Row 1 -->
-      <rect class="cell" x="0" y="0" width="12" height="12" fill="#1e293b"/>
-      <rect class="cell" x="16" y="0" width="12" height="12" fill="#312e81"/>
-      <rect class="cell" x="32" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="48" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="64" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="80" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="96" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="112" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="128" y="0" width="12" height="12" fill="#38bdf8"/>
-      <rect class="cell" x="144" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="160" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="176" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="192" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="208" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="224" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="240" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="256" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="272" y="0" width="12" height="12" fill="#38bdf8"/>
-      <rect class="cell" x="288" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="304" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="320" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="336" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="352" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="368" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="384" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="400" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="416" y="0" width="12" height="12" fill="#38bdf8"/>
-      <rect class="cell" x="432" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="448" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="464" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="480" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="496" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="512" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="528" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="544" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="560" y="0" width="12" height="12" fill="#38bdf8"/>
-      <rect class="cell" x="576" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="592" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="608" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="624" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="640" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="656" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="672" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="688" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="704" y="0" width="12" height="12" fill="#38bdf8"/>
-      <rect class="cell" x="720" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="736" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="752" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="768" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="784" y="0" width="12" height="12" fill="#38bdf8"/>
-    </g>
-
-    <!-- Row 2 -->
-    <g fill="#1e293b" transform="translate(0, 16)">
       <rect class="cell" x="0" y="0" width="12" height="12" fill="#312e81"/>
       <rect class="cell" x="16" y="0" width="12" height="12" fill="#4c1d95"/>
       <rect class="cell" x="32" y="0" width="12" height="12" fill="#7c3aed"/>
@@ -143,8 +89,8 @@
       <rect class="cell" x="784" y="0" width="12" height="12" fill="#06b6d4"/>
     </g>
 
-    <!-- Row 3 -->
-    <g fill="#1e293b" transform="translate(0, 32)">
+    <!-- Row 2 (y = 16) -->
+    <g fill="#1e293b" transform="translate(0, 16)">
       <rect class="cell" x="0" y="0" width="12" height="12" fill="#4c1d95"/>
       <rect class="cell" x="16" y="0" width="12" height="12" fill="#7c3aed"/>
       <rect class="cell" x="32" y="0" width="12" height="12" fill="#8b5cf6"/>
@@ -154,42 +100,42 @@
       <rect class="cell" x="96" y="0" width="12" height="12" fill="#7c3aed"/>
       <rect class="cell" x="112" y="0" width="12" height="12" fill="#8b5cf6"/>
       <rect class="cell" x="128" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="144" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="160" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="176" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="192" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="208" y="0" width="12" height="12" fill="#38bdf8"/>
-      <rect class="cell" x="224" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="240" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="256" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="272" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="288" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="304" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="320" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="336" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="352" y="0" width="12" height="12" fill="#38bdf8"/>
-      <rect class="cell" x="368" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="384" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="400" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="416" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="432" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="448" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="464" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="480" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="496" y="0" width="12" height="12" fill="#38bdf8"/>
-      <rect class="cell" x="512" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="528" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="544" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="560" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="576" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="592" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="608" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="624" y="0" width="12" height="12" fill="#06b6d4"/>
-      <rect class="cell" x="640" y="0" width="12" height="12" fill="#38bdf8"/>
-      <rect class="cell" x="656" y="0" width="12" height="12" fill="#4c1d95"/>
-      <rect class="cell" x="672" y="0" width="12" height="12" fill="#7c3aed"/>
-      <rect class="cell" x="688" y="0" width="12" height="12" fill="#8b5cf6"/>
-      <rect class="cell" x="704" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="144" y="0" width="12" height="12" fill="#312e81"/>
+      <rect class="cell" x="160" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="176" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="192" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="208" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="224" y="0" width="12" height="12" fill="#38bdf8"/>
+      <rect class="cell" x="240" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="256" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="272" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="288" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="304" y="0" width="12" height="12" fill="#312e81"/>
+      <rect class="cell" x="320" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="336" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="352" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="368" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="384" y="0" width="12" height="12" fill="#38bdf8"/>
+      <rect class="cell" x="400" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="416" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="432" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="448" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="464" y="0" width="12" height="12" fill="#312e81"/>
+      <rect class="cell" x="480" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="496" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="512" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="528" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="544" y="0" width="12" height="12" fill="#38bdf8"/>
+      <rect class="cell" x="560" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="576" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="592" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="608" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="624" y="0" width="12" height="12" fill="#312e81"/>
+      <rect class="cell" x="640" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="656" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="672" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="688" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="704" y="0" width="12" height="12" fill="#38bdf8"/>
       <rect class="cell" x="720" y="0" width="12" height="12" fill="#4c1d95"/>
       <rect class="cell" x="736" y="0" width="12" height="12" fill="#7c3aed"/>
       <rect class="cell" x="752" y="0" width="12" height="12" fill="#8b5cf6"/>
@@ -197,15 +143,68 @@
       <rect class="cell" x="784" y="0" width="12" height="12" fill="#38bdf8"/>
     </g>
 
-    <!-- Animated Pacman Character Moving -->
-    <g class="pacman">
-      <path d="M 12,6 A 6,6 0 1,1 6,0 L 6,6 Z" transform="rotate(30 6 6)" />
+    <!-- Row 3 (y = 32) -->
+    <g fill="#1e293b" transform="translate(0, 32)">
+      <rect class="cell" x="0" y="0" width="12" height="12" fill="#312e81"/>
+      <rect class="cell" x="16" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="32" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="48" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="64" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="80" y="0" width="12" height="12" fill="#38bdf8"/>
+      <rect class="cell" x="96" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="112" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="128" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="144" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="160" y="0" width="12" height="12" fill="#312e81"/>
+      <rect class="cell" x="176" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="192" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="208" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="224" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="240" y="0" width="12" height="12" fill="#38bdf8"/>
+      <rect class="cell" x="256" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="272" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="288" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="304" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="320" y="0" width="12" height="12" fill="#312e81"/>
+      <rect class="cell" x="336" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="352" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="368" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="384" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="400" y="0" width="12" height="12" fill="#38bdf8"/>
+      <rect class="cell" x="416" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="432" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="448" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="464" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="480" y="0" width="12" height="12" fill="#312e81"/>
+      <rect class="cell" x="496" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="512" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="528" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="544" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="560" y="0" width="12" height="12" fill="#38bdf8"/>
+      <rect class="cell" x="576" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="592" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="608" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="624" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="640" y="0" width="12" height="12" fill="#312e81"/>
+      <rect class="cell" x="656" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="672" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="688" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="704" y="0" width="12" height="12" fill="#06b6d4"/>
+      <rect class="cell" x="720" y="0" width="12" height="12" fill="#38bdf8"/>
+      <rect class="cell" x="736" y="0" width="12" height="12" fill="#4c1d95"/>
+      <rect class="cell" x="752" y="0" width="12" height="12" fill="#7c3aed"/>
+      <rect class="cell" x="768" y="0" width="12" height="12" fill="#8b5cf6"/>
+      <rect class="cell" x="784" y="0" width="12" height="12" fill="#06b6d4"/>
     </g>
-    <g class="pacman" transform="translate(-25, 0)">
-      <circle cx="6" cy="6" r="4" fill="#8b5cf6" />
-    </g>
-    <g class="pacman" transform="translate(-45, 0)">
-      <circle cx="6" cy="6" r="4" fill="#06b6d4" />
+
+    <!-- Pacman Group perfectly centered on grid cells (r=6, cx=6, cy=6) -->
+    <g class="pacman-group">
+      <!-- Pacman Circle Body centered at (6, 6) -->
+      <circle cx="6" cy="6" r="6" fill="#f59e0b" />
+      <!-- Pacman Mouth Wedge -->
+      <polygon points="6,6 13,2 13,10" fill="#0c101d" />
+      <!-- Pacman Eye -->
+      <circle cx="6" cy="3" r="1" fill="#0c101d" />
     </g>
   </g>
 </svg>
