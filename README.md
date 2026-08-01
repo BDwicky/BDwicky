@@ -96,7 +96,7 @@
 <div align="center">
   <p><i>Animasi Pacman / Snake memakan kontribusi commit GitHub secara real-time:</i></p>
   <br/>
-  <img alt="Pacman Contribution Animation" src="./github-contribution-grid-snake-dark.svg" width="100%" />
+  <img alt="Pacman Contribution Animation" src="./github-contribution-grid-snake-dark.svg?v=3" width="100%" />
 </div>
 
 <br/>
