@@ -1,4 +1,4 @@
-name: Generate Snake / Pacman Contribution Animation
+name: Generate Snake / Pacman / Galaga Contribution Animation
 
 on:
   # Run automatically every 12 hours
@@ -22,7 +22,7 @@ jobs:
     
     steps:
       # Generates a snake/pacman game from a github user contributions graph
-      - name: generate pacman-contribution-graph.svg
+      - name: generate pacman & galaga contribution-graph.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -31,6 +31,8 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/pacman-contribution-graph.svg
             dist/pacman-contribution-graph-dark.svg?palette=github-dark
+            dist/galaga-contribution-graph.svg
+            dist/galaga-contribution-graph-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
