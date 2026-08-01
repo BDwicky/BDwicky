@@ -1,24 +1,25 @@
 <div align="center">
-  <!-- Running Neon Ticker Accent Bar (Top) -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2500&pause=500&color=00D8F6&center=true&vCenter=true&width=750&lines=%E2%96%B6+SYSTEM+ONLINE+%E2%80%A2+CONNECTED+TO+NANDA'S+ORBITAL+STATION+%E2%9D%A4;%E2%9A%A1+FULL-STACK+WEB+DEVELOPER+%E2%80%A2+LARAVEL+SPECIALIST+%E2%80%A2+CLEAN+ARCHITECT;%F0%9F%8C%90+PORTFOLIO%3A+BDwicky.dev+%E2%80%A2+portofolio.accare.tech" alt="Running Ticker Accent" />
+  <!-- High-Impact Deep Galaxy Hero Banner -->
+  <a href="https://bdwicky.dev">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,15:0f172a,40:31103f,65:6d28d9,85:8b5cf6,100:06b6d4&height=280&section=header&text=🌌%20NANDA%20%7C%20COSMIC%20DEV%20✨&fontSize=52&animation=twinkle&fontColor=ffffff&stroke=8b5cf6&strokeWidth=3" width="100%" alt="Nanda Header" />
+  </a>
 
-  <br/>
-
-  <!-- Main Cyber Glowing Banner Header with Neon Border Accent -->
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0c101d,20:1e1b4b,50:8a4fff,80:00d8f6,100:0c101d&height=220&section=header&text=⚡%20NANDA%20%7C%20FULL-STACK%20DEV%20⚡&fontSize=42&animation=twinkle&fontColor=ffffff&stroke=8a4fff&strokeWidth=2" width="100%" alt="Header Banner" />
-
-  <br/>
-
-  <!-- Dynamic Running Text Accent (Bottom) -->
-  <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=22&duration=3000&pause=800&color=8A4FFF&center=true&vCenter=true&width=650&lines=%F0%9F%9A%80+Building+Scalable+Enterprise+Web+Systems;%F0%9F%92%A1+High-Performance+Database+%26+Modern+UI%2FUX;%E2%9A%A1+Laravel+%E2%80%A2+PHP+8.x+%E2%80%A2+MySQL+%E2%80%A2+JavaScript" alt="Typing SVG Header" />
+  <!-- Animated Galaxy Shooting Stars Divider -->
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
   <br/><br/>
 
-  <!-- Floating Badges from Portfolio -->
-  <img src="https://img.shields.io/badge/⚡_Laravel-Expert-8A4FFF?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/💻_Clean-Code-00D8F6?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-  <a href="https://bdwicky.dev" target="_blank"><img src="https://img.shields.io/badge/🌐_Website-BDwicky.dev-10B981?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
-  <a href="https://portofolio.accare.tech" target="_blank"><img src="https://img.shields.io/badge/🚀_Live_Porto-accare.tech-F59E0B?style=for-the-badge&logo=cloudflare&logoColor=white" /></a>
+  <!-- Dynamic Typing Header Role SVG -->
+  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=800&size=26&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=%E2%9C%A8+Full-Stack+Web+Developer;%F0%9F%9A%80+Laravel+%26+PHP+Specialist;%F0%9F%92%A1+Enterprise+Web+Architect;%F0%9F%8C%8C+Cosmic+UI%2FUX+%26+Clean+Code" alt="Typing Header" />
+
+  <br/><br/>
+
+  <!-- High-Impact Glassmorphic Status Badges -->
+  <a href="https://bdwicky.dev" target="_blank"><img src="https://img.shields.io/badge/🌐_Official_Website-BDwicky.dev-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://portofolio.accare.tech" target="_blank"><img src="https://img.shields.io/badge/🚀_Live_Porto-accare.tech-06B6D4?style=for-the-badge&logo=cloudflare&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://linkedin.com/in/BDwicky" target="_blank"><img src="https://img.shields.io/badge/💬_Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </div>
 
 <br/>
