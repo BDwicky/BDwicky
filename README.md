@@ -89,11 +89,16 @@
 
 <br/>
 
-## 📊 Statistik GitHub & Telemetri Performa
+## 📊 Activity Graph & Telemetri Performa
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BDwicky&theme=tokyo-night&bg_color=0c101d&color=00d8f6&line=8a4fff&point=ffffff&area=true&hide_border=false" width="100%" alt="Contribution Activity Graph" />
+</div>
+
+<br/>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BDwicky&show_icons=true&theme=tokyonight&border_color=1e293b&title_color=8a4fff&icon_color=00d8f6&text_color=94a3b8&bg_color=0c101d" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BDwicky&theme=tokyonight&border=1e293b&background=0c101d&ring=8a4fff&fire=00d8f6&currStreakLabel=00d8f6" width="49%" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BDwicky&theme=tokyonight&border=1e293b&background=0c101d&ring=8a4fff&fire=00d8f6&currStreakLabel=00d8f6" width="98%" alt="GitHub Streak" />
 </p>
 
 <br/>
