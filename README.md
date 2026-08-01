@@ -96,10 +96,10 @@
 <div align="center">
   <p><i>Animasi Pacman / Snake memakan kontribusi commit GitHub secara real-time:</i></p>
   <br/>
-  <picture data-importer="pacman">
-    <source media="(prefers-color-scheme: dark)" srcset="./galaga-contribution-graph-dark.svg?v=1">
-    <source media="(prefers-color-scheme: light)" srcset="./galaga-contribution-graph.svg?v=1">
-    <img alt="pacman contribution graph" src="./galaga-contribution-graph.svg?v=1" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./github-contribution-grid-snake-dark.svg">
+    <img alt="Pacman Contribution Arcade" src="./github-contribution-grid-snake-dark.svg" width="100%">
   </picture>
 </div>
 
