@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 870 170" width="100%" height="170">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 870 200" width="100%" height="200">
   <defs>
-    <!-- Glow Effect for Pac-Man & Ghosts -->
-    <filter id="characterGlow" x="-30%" y="-30%" width="160%" height="160%">
+    <!-- Arcade CRT Screen Glow Filter -->
+    <filter id="arcadeGlow" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="1.5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
@@ -11,78 +11,98 @@
   </defs>
 
   <style>
-    .bg { fill: #0d1117; rx: 10px; }
+    .bg { fill: #000000; rx: 12px; stroke: #2121ff; stroke-width: 2; filter: url(#arcadeGlow); }
+    .arcade-font { font-family: 'Courier New', Courier, monospace; font-weight: bold; }
+    .score-title { fill: #dedede; font-size: 11px; }
+    .score-val { fill: #ffff00; font-size: 12px; }
     .month-text, .day-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10px; fill: #8b949e; }
     .cell { rx: 2.5px; ry: 2.5px; }
 
-    /* Pac-Man & Ghosts Moving Strictly ON TOP of the Contribution Grid Blocks (Row by Row) */
-    @keyframes pacmanOnGridTrack {
-      0%   { transform: translate(36px, 30px); }
-      7%   { transform: translate(840px, 30px); }
-      8%   { transform: translate(840px, 46px); }
-      15%  { transform: translate(36px, 46px); }
-      16%  { transform: translate(36px, 62px); }
-      23%  { transform: translate(840px, 62px); }
-      24%  { transform: translate(840px, 78px); }
-      31%  { transform: translate(36px, 78px); }
-      32%  { transform: translate(36px, 94px); }
-      39%  { transform: translate(840px, 94px); }
-      40%  { transform: translate(840px, 110px); }
-      47%  { transform: translate(36px, 110px); }
-      48%  { transform: translate(36px, 126px); }
-      55%  { transform: translate(840px, 126px); }
-      58%  { transform: translate(36px, 30px); }
-      100% { transform: translate(36px, 30px); }
+    /* Ghost Target AI Path Vectors (From masonicGIT/pacman Learn Mode) */
+    .ai-blinky-target { stroke: #ff0000; stroke-width: 1.5; stroke-dasharray: 3,3; opacity: 0.8; }
+    .ai-pinky-target  { stroke: #ffb8ff; stroke-width: 1.5; stroke-dasharray: 3,3; opacity: 0.8; }
+    .ai-inky-target   { stroke: #00ffff; stroke-width: 1.5; stroke-dasharray: 3,3; opacity: 0.8; }
+
+    /* Keyframes for Pac-Man & Ghost AI Target Movement on Contribution Grid */
+    @keyframes pacman52WeekGrid {
+      0%   { transform: translate(36px, 50px); }
+      7%   { transform: translate(840px, 50px); }
+      8%   { transform: translate(840px, 66px); }
+      15%  { transform: translate(36px, 66px); }
+      16%  { transform: translate(36px, 82px); }
+      23%  { transform: translate(840px, 82px); }
+      24%  { transform: translate(840px, 98px); }
+      31%  { transform: translate(36px, 98px); }
+      32%  { transform: translate(36px, 114px); }
+      39%  { transform: translate(840px, 114px); }
+      40%  { transform: translate(840px, 130px); }
+      47%  { transform: translate(36px, 130px); }
+      48%  { transform: translate(36px, 146px); }
+      55%  { transform: translate(840px, 146px); }
+      58%  { transform: translate(36px, 50px); }
+      100% { transform: translate(36px, 50px); }
     }
 
-    @keyframes blinkyOnGridTrack {
-      0%   { transform: translate(6px, 30px); }
-      7%   { transform: translate(810px, 30px); }
-      8%   { transform: translate(810px, 46px); }
-      15%  { transform: translate(6px, 46px); }
-      16%  { transform: translate(6px, 62px); }
-      23%  { transform: translate(810px, 62px); }
-      24%  { transform: translate(810px, 78px); }
-      31%  { transform: translate(6px, 78px); }
-      32%  { transform: translate(6px, 94px); }
-      39%  { transform: translate(810px, 94px); }
-      40%  { transform: translate(810px, 110px); }
-      47%  { transform: translate(6px, 110px); }
-      48%  { transform: translate(6px, 126px); }
-      55%  { transform: translate(810px, 126px); }
-      58%  { transform: translate(6px, 30px); }
-      100% { transform: translate(6px, 30px); }
+    @keyframes blinkyAIFollow {
+      0%   { transform: translate(6px, 50px); }
+      7%   { transform: translate(810px, 50px); }
+      8%   { transform: translate(810px, 66px); }
+      15%  { transform: translate(6px, 66px); }
+      16%  { transform: translate(6px, 82px); }
+      23%  { transform: translate(810px, 82px); }
+      24%  { transform: translate(810px, 98px); }
+      31%  { transform: translate(6px, 98px); }
+      32%  { transform: translate(6px, 114px); }
+      39%  { transform: translate(810px, 114px); }
+      40%  { transform: translate(810px, 130px); }
+      47%  { transform: translate(6px, 130px); }
+      48%  { transform: translate(6px, 146px); }
+      55%  { transform: translate(810px, 146px); }
+      58%  { transform: translate(6px, 50px); }
+      100% { transform: translate(6px, 50px); }
     }
 
-    @keyframes pinkyOnGridTrack {
-      0%   { transform: translate(-24px, 30px); }
-      7%   { transform: translate(780px, 30px); }
-      8%   { transform: translate(780px, 46px); }
-      15%  { transform: translate(-24px, 46px); }
-      16%  { transform: translate(-24px, 62px); }
-      23%  { transform: translate(780px, 62px); }
-      24%  { transform: translate(780px, 78px); }
-      31%  { transform: translate(-24px, 78px); }
-      32%  { transform: translate(-24px, 94px); }
-      39%  { transform: translate(780px, 94px); }
-      40%  { transform: translate(780px, 110px); }
-      47%  { transform: translate(-24px, 110px); }
-      48%  { transform: translate(-24px, 126px); }
-      55%  { transform: translate(780px, 126px); }
-      58%  { transform: translate(-24px, 30px); }
-      100% { transform: translate(-24px, 30px); }
+    @keyframes pinkyAIFollow {
+      0%   { transform: translate(-24px, 50px); }
+      7%   { transform: translate(780px, 50px); }
+      8%   { transform: translate(780px, 66px); }
+      15%  { transform: translate(-24px, 66px); }
+      16%  { transform: translate(-24px, 82px); }
+      23%  { transform: translate(780px, 82px); }
+      24%  { transform: translate(780px, 98px); }
+      31%  { transform: translate(-24px, 98px); }
+      32%  { transform: translate(-24px, 114px); }
+      39%  { transform: translate(780px, 114px); }
+      40%  { transform: translate(780px, 130px); }
+      47%  { transform: translate(-24px, 130px); }
+      48%  { transform: translate(-24px, 146px); }
+      55%  { transform: translate(780px, 146px); }
+      58%  { transform: translate(-24px, 50px); }
+      100% { transform: translate(-24px, 50px); }
     }
 
-    .pacman-grid-runner { animation: pacmanOnGridTrack 15s linear infinite; }
-    .blinky-grid-runner { animation: blinkyOnGridTrack 15s linear infinite; }
-    .pinky-grid-runner  { animation: pinkyOnGridTrack 15s linear infinite; }
+    .pacman-runner { animation: pacman52WeekGrid 15s linear infinite; }
+    .blinky-runner { animation: blinkyAIFollow 15s linear infinite; }
+    .pinky-runner  { animation: pinkyAIFollow 15s linear infinite; }
   </style>
 
-  <!-- GitHub Dark Background Card -->
-  <rect class="bg" width="870" height="170" />
+  <!-- Arcade Screen Frame -->
+  <rect class="bg" width="870" height="200" />
+
+  <!-- Authentic Pac-Man Arcade Header (masonicGIT Score System) -->
+  <g class="arcade-font" transform="translate(36, 22)">
+    <text class="score-title" x="0" y="0">1UP</text>
+    <text class="score-val" x="0" y="14"> 2480</text>
+
+    <text class="score-title" x="320" y="0">HIGH SCORE</text>
+    <text class="score-val" x="330" y="14">99990</text>
+
+    <text class="score-title" x="680" y="0">2UP</text>
+    <text class="score-val" x="680" y="14"> 00</text>
+  </g>
 
   <!-- Month Labels -->
-  <g class="month-text" transform="translate(36, 18)">
+  <g class="month-text" transform="translate(36, 42)">
     <text x="0">Jan</text>
     <text x="68">Feb</text>
     <text x="136">Mar</text>
@@ -98,14 +118,14 @@
   </g>
 
   <!-- Day Labels -->
-  <g class="day-text" transform="translate(10, 42)">
+  <g class="day-text" transform="translate(10, 62)">
     <text y="0">Mon</text>
     <text y="32">Wed</text>
     <text y="64">Fri</text>
   </g>
 
-  <!-- THE CONTRIBUTION GRID BLOCKS SERVING AS THE PACMAN TRACK (364 BLOCKS) -->
-  <g transform="translate(36, 30)">
+  <!-- 52 Columns x 7 Rows GitHub Contribution Grid Matrix -->
+  <g transform="translate(36, 50)">
     <!-- Row 0 (Mon) -->
     <g fill="#161b22">
       <rect class="cell" x="0" y="0" width="11" height="11" fill="#0e4429"/>
@@ -161,7 +181,7 @@
       <rect class="cell" x="800" y="0" width="11" height="11" fill="#006d32"/>
     </g>
 
-    <!-- Rows 1 to 6 (7 Rows Total) -->
+    <!-- Rows 1 to 6 -->
     <g fill="#161b22" transform="translate(0, 16)">
       <rect class="cell" x="0" y="0" width="11" height="11" fill="#26a641"/>
       <rect class="cell" x="16" y="0" width="11" height="11" fill="#39d353"/>
@@ -487,28 +507,54 @@
     </g>
   </g>
 
-  <!-- Pac-Man Hero Walking Directly ON TOP of the Grid Cells -->
-  <g class="pacman-grid-runner">
-    <circle cx="5.5" cy="5.5" r="7" fill="#ffff00" filter="url(#characterGlow)" />
-    <polygon points="5.5,5.5 13.5,1.5 13.5,9.5" fill="#0d1117" />
-    <circle cx="5.5" cy="2.5" r="1" fill="#0d1117" />
+  <!-- Pac-Man Hero Character -->
+  <g class="pacman-runner">
+    <circle cx="5.5" cy="5.5" r="7" fill="#ffff00" />
+    <polygon points="5.5,5.5 13.5,1.5 13.5,9.5" fill="#000000" />
+    <circle cx="5.5" cy="2.5" r="1" fill="#000000" />
   </g>
 
-  <!-- Blinky (Red Ghost) Chasing Pacman on the Grid Cells -->
-  <g class="blinky-grid-runner">
-    <path d="M 0.5,11 L 0.5,4 A 5,5 0 0,1 10.5,4 L 10.5,11 L 8,8.5 L 5.5,11 L 3,8.5 Z" fill="#ff0000" filter="url(#characterGlow)" />
+  <!-- Blinky (Red Ghost) pursuing with AI Target Line -->
+  <g class="blinky-runner">
+    <line class="ai-blinky-target" x1="5.5" y1="5.5" x2="35" y2="5.5" />
+    <path d="M 0.5,11 L 0.5,4 A 5,5 0 0,1 10.5,4 L 10.5,11 L 8,8.5 L 5.5,11 L 3,8.5 Z" fill="#ff0000" />
     <circle cx="3.5" cy="4" r="1.5" fill="#ffffff" />
     <circle cx="7.5" cy="4" r="1.5" fill="#ffffff" />
     <circle cx="4.5" cy="4" r="0.8" fill="#0000ff" />
     <circle cx="8.5" cy="4" r="0.8" fill="#0000ff" />
   </g>
 
-  <!-- Pinky (Pink Ghost) Chasing Pacman on the Grid Cells -->
-  <g class="pinky-grid-runner">
-    <path d="M 0.5,11 L 0.5,4 A 5,5 0 0,1 10.5,4 L 10.5,11 L 8,8.5 L 5.5,11 L 3,8.5 Z" fill="#ffb8ff" filter="url(#characterGlow)" />
+  <!-- Pinky (Pink Ghost) pursuing with AI Target Line -->
+  <g class="pinky-runner">
+    <line class="ai-pinky-target" x1="5.5" y1="5.5" x2="30" y2="5.5" />
+    <path d="M 0.5,11 L 0.5,4 A 5,5 0 0,1 10.5,4 L 10.5,11 L 8,8.5 L 5.5,11 L 3,8.5 Z" fill="#ffb8ff" />
     <circle cx="3.5" cy="4" r="1.5" fill="#ffffff" />
     <circle cx="7.5" cy="4" r="1.5" fill="#ffffff" />
     <circle cx="4.5" cy="4" r="0.8" fill="#0000ff" />
     <circle cx="8.5" cy="4" r="0.8" fill="#0000ff" />
+  </g>
+
+  <!-- Arcade Footer Status: Lives & Fruits (From masonicGIT/pacman HUD) -->
+  <g transform="translate(36, 175)">
+    <!-- Lives Remaining Icons -->
+    <circle cx="6" cy="10" r="5" fill="#ffff00" />
+    <polygon points="6,10 12,7 12,13" fill="#000000" />
+    <circle cx="20" cy="10" r="5" fill="#ffff00" />
+    <polygon points="20,10 26,7 26,13" fill="#000000" />
+    <circle cx="34" cy="10" r="5" fill="#ffff00" />
+    <polygon points="34,10 40,7 40,13" fill="#000000" />
+
+    <!-- Cherry & Fruit Bonus Badges (Lower Right) -->
+    <g transform="translate(750, 2)">
+      <!-- Cherry 1 -->
+      <circle cx="8" cy="12" r="3.5" fill="#ff0000" />
+      <circle cx="15" cy="14" r="3.5" fill="#ff0000" />
+      <path d="M 8,10 Q 12,2 16,4 M 15,12 Q 13,5 16,4" stroke="#00d8f6" stroke-width="1.5" fill="none" />
+      
+      <!-- Strawberry 2 -->
+      <path transform="translate(30, 4)" d="M 5,2 C 10,0 12,6 8,12 C 4,12 0,6 3,2 Z" fill="#ff0055" />
+      <!-- Orange 3 -->
+      <circle cx="65" cy="10" r="5" fill="#ff9900" />
+    </g>
   </g>
 </svg>
