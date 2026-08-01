@@ -57,12 +57,12 @@ Status   : Always Learning 🚀
 ## 📊 GitHub Statistics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=BDwicky&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00D8F6&icon_color=8A4FFF&text_color=ffffff" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BDwicky&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D8F6&text_color=ffffff" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=BDwicky&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00D8F6&icon_color=8A4FFF&text_color=ffffff&cache_seconds=86400" />
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=BDwicky&theme=tokyonight" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BDwicky&theme=tokyonight&hide_border=true&background=0d1117&stroke=00D8F6&ring=8A4FFF&fire=ff6b6b&currStreakLabel=00D8F6" />
+  <img src="https://streak-stats.demolab.com?user=BDwicky&theme=tokyonight&hide_border=true&background=0d1117&stroke=00D8F6&ring=8A4FFF&fire=ff6b6b&currStreakLabel=00D8F6" />
 </div>
 
 ---
