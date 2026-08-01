@@ -10,21 +10,10 @@
   <br/><br/>
 
   <!-- Main Badges -->
-  <a href="https://bdwicky.dev">
-    <img src="https://img.shields.io/badge/Portfolio-BDwicky.dev-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/BDwicky">
-    <img src="https://img.shields.io/github/followers/BDwicky?label=Followers&style=for-the-badge&color=4F46E5&logo=github&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/BDwicky?tab=repositories">
-    <img src="https://img.shields.io/github/stars/BDwicky?label=Stars&style=for-the-badge&color=06B6D4&logo=github&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/BDwicky">
-    <img src="https://img.shields.io/badge/Location-Surabaya%2C%20ID-10B981?style=for-the-badge&logo=googlemaps&logoColor=white" />
-  </a>
+  <a href="https://bdwicky.dev"><img src="https://img.shields.io/badge/Portfolio-BDwicky.dev-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://github.com/BDwicky"><img src="https://img.shields.io/github/followers/BDwicky?label=Followers&style=for-the-badge&color=4F46E5&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/BDwicky?tab=repositories"><img src="https://img.shields.io/github/stars/BDwicky?label=Stars&style=for-the-badge&color=06B6D4&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/BDwicky"><img src="https://img.shields.io/badge/Location-Surabaya%2C%20ID-10B981?style=for-the-badge&logo=googlemaps&logoColor=white" /></a>
 </div>
 
 <br/>
@@ -38,7 +27,7 @@
 
 <table>
   <tr>
-    <td width="60%" valign="top">
+    <td width="55%" valign="top">
       <h3>👨‍🚀 Mission Commander Log</h3>
       <p>Halo! Saya <b>Nanda</b>, seorang <i>Full-Stack Web Developer</i> yang berfokus pada pengembangan sistem informasi enterprise berbasis web, arsitektur database performa tinggi, dan antarmuka pengguna modern yang intuitif.</p>
       <ul>
@@ -49,8 +38,8 @@
         <li>🎯 <b>Prinsip:</b> Clean Architecture, High Performance, & Cosmic UI/UX</li>
       </ul>
     </td>
-    <td width="40%" align="center" valign="middle">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BDwicky&layout=donut&theme=tokyonight&hide_border=true&title_color=c084fc&text_color=94a3b8&bg_color=0F172A" width="100%" alt="Top Languages Donut" />
+    <td width="45%" align="center" valign="middle">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BDwicky&layout=compact&theme=tokyonight&hide_border=true&title_color=c084fc&text_color=94a3b8&bg_color=0F172A" width="100%" alt="Top Languages" />
     </td>
   </tr>
 </table>
@@ -73,18 +62,10 @@
 
 ## 📊 🛸 Orbit Telemetry & GitHub Analytics
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=BDwicky&show_icons=true&theme=tokyonight&count_private=true&hide_border=false&border_color=1e293b&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8&bg_color=0f172a" width="410" alt="GitHub Stats" />
-      </td>
-      <td align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=BDwicky&theme=tokyonight&hide_border=false&border=1e293b&background=0f172a&ring=c084fc&fire=38bdf8&currStreakLabel=38bdf8" width="410" alt="GitHub Streak" />
-      </td>
-    </tr>
-  </table>
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=BDwicky&show_icons=true&theme=tokyonight&hide_border=false&border_color=1e293b&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8&bg_color=0f172a" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BDwicky&theme=tokyonight&hide_border=false&border=1e293b&background=0f172a&ring=c084fc&fire=38bdf8&currStreakLabel=38bdf8" width="49%" alt="GitHub Streak" />
+</p>
 
 <br/>
 
@@ -117,17 +98,9 @@
 <div align="center">
   <p>Tertarik untuk berkolaborasi atau mendiskusikan proyek web? Mari terhubung!</p>
 
-  <a href="https://bdwicky.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Website-BDwicky.dev-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/BDwicky" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-BDwicky-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/BDwicky" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-BDwicky-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+  <a href="https://bdwicky.dev" target="_blank"><img src="https://img.shields.io/badge/Website-BDwicky.dev-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://github.com/BDwicky" target="_blank"><img src="https://img.shields.io/badge/GitHub-BDwicky-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/BDwicky" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-BDwicky-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
   <br/><br/>
 
