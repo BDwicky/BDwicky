@@ -2,7 +2,7 @@ name: Generate Pacman Contribution Animation
 
 on:
   schedule:
-    - cron: "0 */24 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -16,16 +16,16 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Generate Pacman & Galaga contribution graph SVGs
+      - name: Generate Pacman contribution graph SVGs
         uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: ${{ github.repository_owner }}
-          games: 'pacman,galaga'
+          github_user_name: BDwicky
+          outputs_folder: pacman-output
 
-      - name: Push SVGs to pacman-output branch
+      - name: Push output to pacman-output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: pacman-output
-          build_dir: dist
+          build_dir: pacman-output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

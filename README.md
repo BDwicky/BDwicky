@@ -83,7 +83,7 @@ Status   : Always Learning 🚀
 ## 📫 Connect With Me
 
 <div align="center">
-  <a href="mailto:bdwicky@example.com">
+  <a href="mailto:bagusdwickyprimanda@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://linkedin.com/in/bdwicky">
