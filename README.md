@@ -54,32 +54,6 @@ Status   : Always Learning 🚀
 
 ---
 
-## 📊 GitHub Statistics & Summary
-
-<div align="center">
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BDwicky&theme=tokyonight" />
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=BDwicky&theme=tokyonight" />
-</div>
-
-<div align="center">
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=BDwicky&theme=tokyonight" />
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BDwicky&theme=tokyonight" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=BDwicky&theme=tokyonight&hide_border=true&background=0d1117&stroke=00D8F6&ring=8A4FFF&fire=ff6b6b&currStreakLabel=00D8F6" />
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BDwicky&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00D8F6&line=8A4FFF&point=ffffff" />
-</div>
-
----
-
 ## 📫 Connect With Me
 
 <div align="center">
